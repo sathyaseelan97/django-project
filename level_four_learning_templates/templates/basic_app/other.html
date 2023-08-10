@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+<!--Intendation are only for readabiltiy-->
+    {% block body_block %}
+        <h1>Welcome to Other page</h1>
+        <h2>This is an example of template inheritance also injecting list</h2>
+        <h1>{{ test_list|last }}</h1>
+    {% endblock %}
